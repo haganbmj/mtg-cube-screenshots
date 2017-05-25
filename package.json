@@ -1,0 +1,22 @@
+{
+  "name": "mtg-cube-screenshots",
+  "version": "1.0.0",
+  "description": "Generate screenshots of sample cube packs using your own images.",
+  "main": "index.js",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "pageres": "^4.5.0",
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haganbmj/mtg-cube-screenshots.git"
+  },
+  "author": "Brendan Hagan (haganbmj)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haganbmj/mtg-cube-screenshots/issues"
+  },
+  "homepage": "https://github.com/haganbmj/mtg-cube-screenshots#readme"
+}

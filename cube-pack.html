@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>garbage</title>
+		<script src="./node_modules/vue/dist/vue.min.js"></script>
+		<script src="./generated/cardlist.js"></script>
+
+    <style>
+      ul {
+        list-style: none;
+      }
+      li {
+        display: inline;
+      }
+      #pack .cropbox {
+        width: 215px;
+        height: 295px;
+        overflow: hidden;
+      }
+			#pack li:nth-child(5n):after {
+				content: '';
+				display: block;
+			}
+      #pack img {
+        width: 221px;
+        height: 302px;
+
+        margin: -2.5px -2px -2.5px -2px;
+      }
+    </style>
+	</head>
+	<body>
+		<div id='app'>
+      <ul id='pack'>
+        <li v-for='image in images'>
+          <span class='cropbox'>
+            <img :src='image'>
+          </span>
+        </li>
+      </ul>
+		</div>
+	</body>
+
+	<script>
+		const app = new Vue({
+			el: '#app',
+			data: {
+				images: []
+			},
+			created: function() {
+				const numberOfCardsToShow = imageList.length < 15 ? imageList.length : 15;
+
+				while (this.images.length < numberOfCardsToShow) {
+					const img = imageList[Math.floor(Math.random() * imageList.length)];
+					if (this.images.indexOf(img) === -1)
+						this.images.push(img);
+				}
+
+				console.log(this.images);
+			}
+		});
+	</script>
+</html>

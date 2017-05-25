@@ -1,0 +1,8 @@
+node_modules
+pictures
+output
+generated/cardlist.js
+
+logs
+*.log
+npm-debug.log*

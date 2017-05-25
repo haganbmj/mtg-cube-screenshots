@@ -1,0 +1,23 @@
+const imageList = [
+  "pictures/abundant maw.jpg",
+  "pictures/accorder paladin.jpg",
+  "pictures/acidic slime.jpg",
+  "pictures/act of aggression.jpg",
+  "pictures/aether chaser.jpg",
+  "pictures/agent of acquisitions.jpg",
+  "pictures/agony warp.jpg",
+  "pictures/ainok survivalist.jpg",
+  "pictures/air servant.jpg",
+  "pictures/animate dead.jpg",
+  "pictures/arc trail.jpg",
+  "pictures/arcane sanctum.jpg",
+  "pictures/archaeomancer.jpg",
+  "pictures/arrest.jpg",
+  "pictures/artisan of kozilek.jpg",
+  "pictures/ashes to ashes.jpg",
+  "pictures/attended knight.jpg",
+  "pictures/augur of bolas.jpg",
+  "pictures/avalanche riders.jpg",
+  "pictures/azorius arrester.jpg",
+  "pictures/azorius chancery.jpg"
+];
